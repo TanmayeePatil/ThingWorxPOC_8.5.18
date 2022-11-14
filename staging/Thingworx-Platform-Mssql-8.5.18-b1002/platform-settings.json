@@ -1,0 +1,28 @@
+{
+	"PlatformSettingsConfig": {
+		"AdministratorUserSettings": {
+			"InitialPassword": ""
+		},
+		"ContentTypeSettings": {
+			"supportedMediaEntityContentTypes": [
+				"image/svg+xml",
+				"image/png",
+				"image/gif",
+				"image/bmp",
+				"image/jpeg",
+				"application/pdf",
+				"image/vnd.microsoft.icon"
+			]
+		}
+	},
+	"PersistenceProviderPackageConfigs": {
+		"MssqlPersistenceProviderPackage": {
+			"ConnectionInformation": {
+				"driverClass": "com.microsoft.sqlserver.jdbc.SQLServerDriver",
+				"jdbcUrl": "jdbc:sqlserver://localhost:1433;databaseName=thingworx;applicationName=Thingworx;",
+				"password": "password",
+				"username": "twadmin"
+			}
+		}
+	}
+}

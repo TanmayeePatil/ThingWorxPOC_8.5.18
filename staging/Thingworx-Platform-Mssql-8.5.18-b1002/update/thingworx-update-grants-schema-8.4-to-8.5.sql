@@ -1,0 +1,3 @@
+--
+-- No Thingworx Platform Grants Schema Update from 8.4 to 8.5
+-- 
